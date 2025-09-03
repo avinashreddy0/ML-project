@@ -1,0 +1,69 @@
+🚀 Customer Churn Prediction using Logistic Regression
+
+I recently worked on a Machine Learning Project where I built a model to predict whether a customer will churn (leave the company) or stay, using a telecom dataset.
+
+🔑 Project Steps:
+
+1️⃣ Data Loading & EDA
+
+Loaded CSV dataset with customer details.
+
+Performed EDA (Exploratory Data Analysis) → shape, summary stats, null values, duplicates.
+
+2️⃣ Data Cleaning
+
+Handled missing values in Age, Tenure, MonthlyCharges.
+
+Removed duplicates for data quality.
+
+3️⃣ Feature Engineering
+
+Converted categorical features (like Gender) into numeric using Label Encoding.
+
+Selected input features → Gender, Age, Tenure, MonthlyCharges.
+
+Target variable → Churn.
+
+4️⃣ Feature Scaling
+
+Applied StandardScaler to normalize feature values.
+
+5️⃣ Model Training
+
+Used Logistic Regression for binary classification (Churn = Yes/No).
+
+Split dataset into train (80%) and test (20%).
+
+6️⃣ Evaluation Metrics
+
+Accuracy Score ✅
+
+Precision Score ✅
+
+Log Loss (measures prediction probabilities).
+
+Created Actual vs Predicted visualization.
+
+7️⃣ Results
+
+Accuracy: ~📊 (insert your score here).
+
+Precision: ~📊 (insert your score here).
+
+Log Loss: ~📊 (insert your score here).
+
+8️⃣ Model Saving
+
+Saved model using Joblib → customer_churn.pkl.
+
+🛠️ Tech Stack:
+
+Python, Pandas, NumPy, Matplotlib
+Scikit-learn (LogisticRegression, LabelEncoder, StandardScaler, log_loss)
+Joblib for model persistence
+
+
+#MachineLearning #LogisticRegression #DataScienceProjects
+#CustomerChurnPrediction #Classification #Python
+#EDA #FeatureEngineering #ModelEvaluation
+#AI #DataScienceCommunity
